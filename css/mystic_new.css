@@ -48,6 +48,23 @@ body {
   color: var(--mm-text-color);
 }
 
+#mm-navbar-toggler {
+  background-color: var(--mm-title-color);
+  color: var(--main-background-color);
+}
+#mm-navbar-toggler:hover {
+  background-color: var(--main-background-color);
+  color: var(--ms-nav-bg);
+}
+#mm-dropdown {
+  color: var(--main-background-color);
+}
+#mm-dropdown .nav-item > .nav-link {
+  color: var(--main-background-color);
+}
+#mm-dropdown .nav-item > .nav-link:hover {
+  color: var(--mm-text-color);
+}
 .location {
   padding: 40px 0px;
 }
