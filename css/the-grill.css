@@ -1,0 +1,95 @@
+:root {
+  --rich-black: #0b090a;
+  --eerie-black: #161a1d;
+  --blood-red: #660708;
+  --dark-crimson: #8a1115;
+  --crimson: #a4161a;
+  --cornell-red: #ba181b;
+  --imperial-red: #e5383b;
+  --gray: #b1a7a6;
+  --light-gray: #d3d3d3;
+  --cultured: #f5f3f4;
+  --cream: #fffba9;
+  --white: #ffffff;
+  --skin-light: #f5d0b3;
+}
+
+* {
+  transition: color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.grill-text {
+  color: var(--skin-light);
+}
+
+.grill-bg {
+  background-color: var(--skin-light);
+}
+
+.grill-nav-bg {
+  background-color: var(--dark-crimson);
+}
+
+#grill-navbar-toggler {
+  background-color: var(--crimson);
+  color: var(--blood-red);
+}
+#grill-navbar-toggler:hover {
+  background-color: var(--blood-red);
+  color: var(--crimson);
+}
+
+#grill-dropdown,
+#grill-dropdown .nav-item .nav-link {
+  color: var(--eerie-black);
+}
+
+#grill-dropdown:hover,
+#grill-dropdown .nav-item .nav-link:hover {
+  color: var(--skin-light);
+}
+
+.menu-header {
+  font-family: "Open Sans";
+  color: var(--imperial-red);
+  letter-spacing: 4px;
+}
+
+.grill-menus .col-4 {
+  padding: 12px;
+}
+
+.grill-menus .col-4 img {
+  border-radius: 0.5rem;
+}
+.grill-menus {
+  background-color: var(--dark-crimson);
+}
+
+.grill-display-images .col-4 {
+  padding: 1rem;
+}
+.grill-display-images img {
+  border-radius: 0.8rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+#grill-location {
+  color: var(--imperial-red);
+}
+
+#grill-border {
+  border-left: 1px solid var(--imperial-red);
+}
+
+/* 250 592 5220 */
+
+#vegan-bg {
+  background-color: var(--skin-light);
+}
+
+@media (max-width: 768px) {
+  .grill-display-images .col-4 {
+    padding: 0.2rem;
+  }
+}
