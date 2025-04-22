@@ -1,0 +1,44 @@
+:root {
+  --main-background-color: #220901;
+  --ms-nav-bg: #621708;
+  --mm-text-color: #f48c06;
+  --mm-title-color: #bc3908;
+}
+body {
+  background-color: var(--main-background-color);
+}
+
+.navbar-links {
+  background-color: var(--ms-nav-bg);
+}
+
+.navbar .nav-link:hover,
+.nav-link:hover.nav-link {
+  color: var(--mm-text-color);
+}
+
+.mm-title-header {
+  color: var(--mm-title-color) !important;
+}
+
+.mm-hours {
+  color: var(--mm-text-color);
+}
+
+.mm-header {
+  height: 100vh;
+}
+
+.the-h2 h2 {
+  line-height: 0.5;
+}
+
+.location {
+  padding: 40px 0px;
+}
+
+@media (max-width: 1024px) {
+  .mm-header {
+    height: 80vh;
+  }
+}
