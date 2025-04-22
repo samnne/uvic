@@ -29,8 +29,23 @@ body {
   height: 100vh;
 }
 
+.menu-not-available {
+  height: 341px;
+  font-family: "Dosis";
+}
+
+.menu-not-available h1 {
+  height: fit-content;
+
+  align-self: center;
+}
+
 .the-h2 h2 {
   line-height: 0.5;
+}
+
+.unify-text {
+  color: var(--mm-text-color);
 }
 
 .location {
