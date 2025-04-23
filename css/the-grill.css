@@ -58,12 +58,15 @@
 .grill-menus .col-4 {
   padding: 12px;
 }
-
-.grill-menus .col-4 img {
-  border-radius: 0.5rem;
-}
 .grill-menus {
   background-color: var(--dark-crimson);
+}
+.grill-menus .col-4 img {
+  border-radius: 0.5rem;
+  transition: transform 0.3s ease-in-out;
+}
+.grill-menus .col-4 img:hover {
+  transform: scale(1.03);
 }
 
 .grill-display-images .col-4 {
@@ -72,6 +75,12 @@
 .grill-display-images img {
   border-radius: 0.8rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+.grill-display-images img {
+  transition: transform 0.3s ease-in-out;
+}
+.grill-display-images img:hover {
+  transform: scale(1.03);
 }
 
 #grill-location {

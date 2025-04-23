@@ -1,0 +1,82 @@
+:root {
+  --green-dark: #1c7c54;
+  --green-mint: #73e2a7;
+  --green-pale: #def4c6;
+  --green-deep: #1b512d;
+  --green-fresh: #a8d430;
+  --orange: #ffa500;
+  --orange-light: #ffd580;
+  --yellow-light: #ffff99;
+}
+
+.hfb-navbar-toggler {
+  background-color: var(--green-dark);
+}
+.hfb-navbar-toggler:focus {
+  background-color: var(--green-mint);
+}
+
+#hfb-header {
+  background-color: var(--green-fresh);
+}
+
+#hfb-cuisine {
+  color: var(--orange);
+}
+
+#hfb-links,
+#hfb-links .nav-link {
+  color: var(--green-deep);
+  transition: color 0.3s ease-in-out;
+}
+
+#hfb-links:hover,
+#hfb-links .nav-link:hover {
+  color: var(--orange);
+}
+
+.hfb-header {
+  font-family: "Open Sans";
+  letter-spacing: 4px;
+  color: var(--green-fresh);
+}
+
+.hfb-menus .col-6 {
+  padding: 1rem;
+}
+.hfb-menus .col-6 img {
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+}
+.hfb-menus .col-6 img:hover {
+  transform: scale(1.05);
+}
+
+.hfb-display-images .col-4 {
+  padding: 0.5rem;
+}
+
+.hfb-display-images img {
+  border-radius: 0.8rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.hfb-display-images img {
+  transition: transform 0.3s ease-in-out;
+}
+.hfb-display-images img:hover {
+  transform: scale(1.03);
+}
+
+.hfb-menu-header {
+  font-family: "Open Sans";
+  color: var(--orange);
+}
+
+#hfb-location {
+  color: var(--orange);
+}
+.hfb-header {
+  color: var(--orange);
+}
