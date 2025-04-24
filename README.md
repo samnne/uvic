@@ -1,1 +1,1 @@
-UVic Food Services Redesign Beta
+UVic Food Services Redesign
