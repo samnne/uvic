@@ -55,21 +55,21 @@
   letter-spacing: 4px;
 }
 
-.grill-menus .col-4 {
+.grill-menus .col-12 {
   padding: 12px;
 }
 .grill-menus {
   background-color: var(--dark-crimson);
 }
-.grill-menus .col-4 img {
+.grill-menus .col-12 img {
   border-radius: 0.5rem;
   transition: transform 0.3s ease-in-out;
 }
-.grill-menus .col-4 img:hover {
+.grill-menus .col-12 img:hover {
   transform: scale(1.03);
 }
 
-.grill-display-images .col-4 {
+.grill-display-images .col-12 {
   padding: 1rem;
 }
 .grill-display-images img {

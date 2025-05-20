@@ -9,6 +9,10 @@
   --yellow-light: #ffff99;
 }
 
+.col-md-6 {
+  margin: 8px 0px;
+}
+
 .hfb-navbar-toggler {
   background-color: var(--green-dark);
 }
@@ -41,15 +45,15 @@
   color: var(--green-fresh);
 }
 
-.hfb-menus .col-6 {
+.hfb-menus .col-12 {
   padding: 1rem;
 }
-.hfb-menus .col-6 img {
-  border-radius: 1rem;
+.hfb-menus .col-12 img {
+  border-radius: 0.2rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.2s ease-in-out;
 }
-.hfb-menus .col-6 img:hover {
+.hfb-menus .col-12 img:hover {
   transform: scale(1.05);
 }
 
